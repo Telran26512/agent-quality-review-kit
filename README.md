@@ -344,6 +344,3 @@ Then remove the `agent-quality-review` entry from:
 
 Restart Codex after uninstalling.
 
-## License
-
-MIT
