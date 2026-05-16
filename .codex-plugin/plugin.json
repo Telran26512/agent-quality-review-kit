@@ -1,0 +1,46 @@
+{
+  "name": "agent-quality-review",
+  "version": "1.0.0",
+  "description": "Review Agent projects for launch readiness, quality, safety, evaluation evidence, and external dependency risk.",
+  "author": {
+    "name": "Telran26512",
+    "url": "https://github.com/Telran26512"
+  },
+  "homepage": "https://github.com/Telran26512/agent-quality-review-kit",
+  "repository": "https://github.com/Telran26512/agent-quality-review-kit",
+  "license": "MIT",
+  "keywords": [
+    "agent-review",
+    "agent-quality",
+    "evals",
+    "launch-readiness",
+    "safety-review",
+    "wilson-interval",
+    "codex-skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Quality Review",
+    "shortDescription": "Agent launch-readiness review with scoring, gates, safety checks, and reports",
+    "longDescription": "Evaluate Agent projects before internal demos, limited pilots, or production launch. The plugin ships a Codex skill, templates, example data, benchmark data, safety guidance, Wilson interval calculations, launch gates, and a deterministic report-generation script.",
+    "developerName": "Telran26512",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review this Agent project for limited pilot readiness.",
+      "Generate Eval Cases for this Agent workflow.",
+      "Validate these Agent review CSV files."
+    ],
+    "websiteURL": "https://github.com/Telran26512/agent-quality-review-kit",
+    "privacyPolicyURL": "https://github.com/Telran26512/agent-quality-review-kit#privacy-and-data-handling",
+    "termsOfServiceURL": "https://github.com/Telran26512/agent-quality-review-kit#license",
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/agent-quality-review.svg",
+    "logo": "./assets/agent-quality-review.svg",
+    "screenshots": []
+  }
+}

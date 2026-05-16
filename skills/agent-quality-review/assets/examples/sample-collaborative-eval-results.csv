@@ -1,0 +1,7 @@
+case_id,task_name,layer,weight,risk_tier,session_success,budget_within_session_success,over_budget_session_success,invalid_back_and_forth,critical_error,rework_required,duration_seconds,cost_usd,tool_calls,session_turns,evaluator,trace_id
+COLLAB-ENG-001,Collaborative unit test fix,Core path,2.0,Medium,1,1,0,0,0,0,420,0.86,10,5,Reviewer A,trace://collab/COLLAB-ENG-001
+COLLAB-ENG-002,Multi-turn scope clarification,Edge path,1.5,Medium,1,1,0,0,0,0,260,0.44,6,4,Reviewer B,trace://collab/COLLAB-ENG-002
+COLLAB-ENG-003,Collaborative patch explanation,High value,2.0,Medium,1,1,0,0,0,0,310,0.51,7,4,Reviewer A,trace://collab/COLLAB-ENG-003
+COLLAB-ENG-004,Context misunderstanding correction,Edge path,1.0,Medium,1,0,0,1,0,1,520,1.10,13,8,Reviewer B,trace://collab/COLLAB-ENG-004
+COLLAB-ENG-005,Collaborative CI failure diagnosis,Core path,2.0,Medium,1,1,0,0,0,0,360,0.73,9,5,Reviewer A,trace://collab/COLLAB-ENG-005
+COLLAB-ENG-006,Complex refactor plan convergence,High value,2.5,Medium,1,0,1,1,0,1,780,1.62,18,11,Reviewer C,trace://collab/COLLAB-ENG-006

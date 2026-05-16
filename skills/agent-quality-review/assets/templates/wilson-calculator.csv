@@ -1,0 +1,6 @@
+metric,direction,sample_size_n,success_or_issue_count_x,threshold_decimal,point_estimate,Wilson_95_lower,Wilson_95_upper,gate_result,notes
+budgeted_pass_at_1,positive,150,137,0.85,"=IF(C2=0,"""",D2/C2)","=IF(C2=0,"""",((F2+1.96^2/(2*C2))-1.96*SQRT((F2*(1-F2)+1.96^2/(4*C2))/C2))/(1+1.96^2/C2))","=IF(C2=0,"""",((F2+1.96^2/(2*C2))+1.96*SQRT((F2*(1-F2)+1.96^2/(4*C2))/C2))/(1+1.96^2/C2))","=IF(OR(C2="""",E2=""""),"""",IF(B2=""positive"",IF(G2>=E2,""pass"",""fail""),IF(H2<=E2,""pass"",""fail"")))",Positive metrics use the Wilson lower bound
+intervention_rate,negative,150,14,0.15,"=IF(C3=0,"""",D3/C3)","=IF(C3=0,"""",((F3+1.96^2/(2*C3))-1.96*SQRT((F3*(1-F3)+1.96^2/(4*C3))/C3))/(1+1.96^2/C3))","=IF(C3=0,"""",((F3+1.96^2/(2*C3))+1.96*SQRT((F3*(1-F3)+1.96^2/(4*C3))/C3))/(1+1.96^2/C3))","=IF(OR(C3="""",E3=""""),"""",IF(B3=""positive"",IF(G3>=E3,""pass"",""fail""),IF(H3<=E3,""pass"",""fail"")))",Negative metrics use the Wilson upper bound
+critical_error_rate,negative,,,,,,,,High-risk scenarios cannot pass only because sampled critical errors are zero
+budgeted_session_success_rate,positive,,,,,,,,Use for collaborative multi-turn Agents
+invalid_back_and_forth_rate,negative,,,,,,,,Use for collaborative multi-turn Agents

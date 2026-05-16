@@ -1,0 +1,4 @@
+dependency_name,type,version,purpose,permission_scope,data_touched,sensitive_data,data_retention,failure_impact,fallback_path,alternative,regression_on_change,owner
+Primary model service,model,model-v1,Generate risk summaries,Read input and generate output,input/output/trace,yes,trace retained for 30 days,Cannot generate summary if unavailable,Stop generation and hand off to a human,Backup model service,yes,Engineering owner
+Internal knowledge base,vector store,2026-05-16,Retrieve project context,read-only,project snippets/search logs,yes,search logs retained for 30 days,Context may be insufficient if unavailable,Fall back to user-provided materials only or stop,Manual knowledge-base lookup,yes,Data owner
+File reader,tool,1.0,Read specified project files,read-only,file content/path/trace,yes,per project log policy,Cannot read materials if unavailable,Ask user to paste required text,Manual file reading,yes,Engineering owner

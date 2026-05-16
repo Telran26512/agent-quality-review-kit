@@ -1,0 +1,9 @@
+dimension,score,evidence
+Real task completion,2,Most sample tasks complete within budget but sample size is too small for pilot evidence
+Reliability and stability,2,Standard paths are stable while edge paths still require rework
+Real problem value,3,Clear time savings compared with manual summary writing
+Error handling and boundary,2,The Agent stops and asks for handoff when the knowledge base is unavailable
+Cost and latency,3,Average cost and duration stay under budget
+Engineering robustness,2,Trace fields and failure categories exist but the sample does not cover production monitoring
+User trust,2,Suitable for internal demo or pre-pilot preparation
+Security and permissions,2,Read-only mode and external sending are disabled; full red-team review is not done

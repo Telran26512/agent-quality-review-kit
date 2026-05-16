@@ -1,0 +1,12 @@
+dimension,score_0_to_3,risk_tier_floor,passes_floor,evidence,main_issue,improvement_action
+Real task completion,,,"=IF(OR(B2="""",C2=""""),"""",IF(B2>=C2,""yes"",""no""))",,,
+Reliability and stability,,,"=IF(OR(B3="""",C3=""""),"""",IF(B3>=C3,""yes"",""no""))",,,
+Real problem value,,,"=IF(OR(B4="""",C4=""""),"""",IF(B4>=C4,""yes"",""no""))",,,
+Error handling and boundary,,,"=IF(OR(B5="""",C5=""""),"""",IF(B5>=C5,""yes"",""no""))",,,
+Cost and latency,,,"=IF(OR(B6="""",C6=""""),"""",IF(B6>=C6,""yes"",""no""))",,,
+Engineering robustness,,,"=IF(OR(B7="""",C7=""""),"""",IF(B7>=C7,""yes"",""no""))",,,
+User trust,,,"=IF(OR(B8="""",C8=""""),"""",IF(B8>=C8,""yes"",""no""))",,,
+Security and permissions,,,"=IF(OR(B9="""",C9=""""),"""",IF(B9>=C9,""yes"",""no""))",,,
+Total score,"=SUM(B2:B9)",24,"=IF(B10="""","""",IF(B10>=21,""21-24: broadly strong"",IF(B10>=17,""17-20: close to usable"",IF(B10>=10,""10-16: partially formed"",""0-9: severe gaps""))))",,,
+Hard failure count,,,,,,
+Gate conclusion,,,,pass / conditional pass / fail / insufficient evidence,,

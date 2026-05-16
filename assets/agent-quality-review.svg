@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Quality Review</title>
+  <desc id="desc">Shield and checklist icon for Agent review.</desc>
+  <rect width="128" height="128" rx="28" fill="#2563EB"/>
+  <path d="M64 18l34 12v28c0 25.2-13.4 42.8-34 52-20.6-9.2-34-26.8-34-52V30l34-12z" fill="#EFF6FF"/>
+  <path d="M64 29l23 8v21.1c0 17.9-8.4 30.7-23 38.4-14.6-7.7-23-20.5-23-38.4V37l23-8z" fill="#1D4ED8"/>
+  <path d="M53.2 64.9l7.6 7.6 17.9-20.2" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49 84h30" stroke="#BFDBFE" stroke-width="6" stroke-linecap="round"/>
+</svg>

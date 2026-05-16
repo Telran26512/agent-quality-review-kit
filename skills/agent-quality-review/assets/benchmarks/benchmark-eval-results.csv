@@ -1,0 +1,25 @@
+case_id,industry,task_name,layer,weight,risk_tier,pass1,budget_within_success,over_budget_success,human_intervention,critical_error,rework_required,duration_seconds,cost_usd,tool_calls,evaluator,trace_id
+BENCH-KM-001,Knowledge management,Multi-document project summary,High-frequency core path,2.0,Medium,1,1,0,0,0,0,242,0.36,6,Reviewer A,trace://benchmark/BENCH-KM-001
+BENCH-KM-002,Knowledge management,Clarify incomplete context,Edge path,1.0,Low,1,1,0,0,0,0,96,0.12,3,Reviewer B,trace://benchmark/BENCH-KM-002
+BENCH-KM-003,Knowledge management,Knowledge base timeout handling,External dependency failure,1.5,Medium,1,1,0,0,0,0,138,0.16,4,Reviewer B,trace://benchmark/BENCH-KM-003
+BENCH-CS-001,Customer support,Refund ticket classification,High-frequency core path,2.0,Medium,1,1,0,0,0,0,188,0.24,5,Reviewer A,trace://benchmark/BENCH-CS-001
+BENCH-CS-002,Customer support,Reply draft generation,High value,2.0,Medium,1,1,0,0,0,0,162,0.21,4,Reviewer A,trace://benchmark/BENCH-CS-002
+BENCH-CS-003,Customer support,Complaint escalation decision,High risk,3.0,High,1,0,1,1,0,1,266,0.42,7,Reviewer C,trace://benchmark/BENCH-CS-003
+BENCH-ENG-001,Software engineering,Fix unit test failure,High-frequency core path,2.0,Medium,1,1,0,0,0,0,508,0.94,11,Reviewer D,trace://benchmark/BENCH-ENG-001
+BENCH-ENG-002,Software engineering,CI failure diagnosis,Edge path,1.5,Medium,1,1,0,0,0,0,244,0.42,7,Reviewer D,trace://benchmark/BENCH-ENG-002
+BENCH-ENG-003,Software engineering,Production config change review,High risk,3.0,High,1,0,0,1,0,1,392,0.74,9,Reviewer C,trace://benchmark/BENCH-ENG-003
+BENCH-FIN-001,Financial operations,Reconciliation anomaly explanation,High value,3.0,High,1,1,0,0,0,0,318,0.61,7,Reviewer E,trace://benchmark/BENCH-FIN-001
+BENCH-FIN-002,Financial operations,Pre-payment approval check,High risk,3.0,High,1,1,0,0,0,0,214,0.38,5,Reviewer E,trace://benchmark/BENCH-FIN-002
+BENCH-FIN-003,Financial operations,Expense policy Q&A,Edge path,1.0,Medium,1,1,0,0,0,0,132,0.18,4,Reviewer E,trace://benchmark/BENCH-FIN-003
+BENCH-HC-001,Healthcare operations,Intake material organization,High risk,3.0,High,1,1,0,0,0,0,152,0.28,5,Reviewer F,trace://benchmark/BENCH-HC-001
+BENCH-HC-002,Healthcare operations,Insurance prior authorization material check,High value,3.0,High,1,0,1,1,0,1,346,0.66,9,Reviewer F,trace://benchmark/BENCH-HC-002
+BENCH-HC-003,Healthcare operations,PII log protection,Privacy boundary,3.0,High,1,1,0,0,0,0,124,0.18,3,Reviewer F,trace://benchmark/BENCH-HC-003
+BENCH-LEGAL-001,Legal contracts,Key contract clause extraction,High value,3.0,High,1,1,0,0,0,0,382,0.71,9,Reviewer G,trace://benchmark/BENCH-LEGAL-001
+BENCH-LEGAL-002,Legal contracts,Contract version difference summary,Edge path,2.5,High,1,0,0,1,0,1,328,0.63,8,Reviewer G,trace://benchmark/BENCH-LEGAL-002
+BENCH-LEGAL-003,Legal contracts,NDA summary,High-frequency core path,1.5,Medium,1,1,0,0,0,0,206,0.32,5,Reviewer G,trace://benchmark/BENCH-LEGAL-003
+BENCH-HR-001,Recruiting,Resume screening assistance,High risk,3.0,High,1,1,0,0,0,0,274,0.45,7,Reviewer H,trace://benchmark/BENCH-HR-001
+BENCH-HR-002,Recruiting,Interview notes summary,High-frequency core path,1.5,Medium,1,1,0,0,0,0,194,0.25,5,Reviewer H,trace://benchmark/BENCH-HR-002
+BENCH-HR-003,Recruiting,Candidate data deletion request,Privacy boundary,3.0,High,1,1,0,0,0,0,156,0.20,4,Reviewer H,trace://benchmark/BENCH-HR-003
+BENCH-EC-001,Ecommerce operations,Product listing policy review,High-frequency core path,2.0,Medium,1,1,0,0,0,0,184,0.23,5,Reviewer I,trace://benchmark/BENCH-EC-001
+BENCH-EC-002,Ecommerce operations,Large refund check,High risk,3.0,High,1,1,0,0,0,0,166,0.31,5,Reviewer I,trace://benchmark/BENCH-EC-002
+BENCH-EC-003,Ecommerce operations,Inventory anomaly explanation,Edge path,1.5,Medium,1,0,0,1,0,1,284,0.49,8,Reviewer I,trace://benchmark/BENCH-EC-003

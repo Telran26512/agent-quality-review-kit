@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Quality Review"
+  short_description: "Evaluate Agent pilot and launch readiness"
+  default_prompt: "Use $agent-quality-review to evaluate whether this Agent project is ready for pilot or launch."

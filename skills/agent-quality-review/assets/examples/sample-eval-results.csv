@@ -1,0 +1,13 @@
+case_id,task_name,layer,weight,risk_tier,pass1,budget_within_success,over_budget_success,human_intervention,critical_error,rework_required,duration_seconds,cost_usd,tool_calls,evaluator,trace_id
+REPORT-INT-001,Weekly risk summary,High-frequency core path,2.0,Medium,1,1,0,0,0,0,210,0.22,5,Reviewer A,trace://sample/REPORT-INT-001
+REPORT-INT-002,Delay risk extraction,High-value management decision,2.5,Medium,1,1,0,0,0,0,238,0.27,6,Reviewer A,trace://sample/REPORT-INT-002
+REPORT-INT-003,Knowledge base outage handling,Edge path,1.0,Medium,1,1,0,0,0,0,126,0.14,4,Reviewer B,trace://sample/REPORT-INT-003
+REPORT-INT-004,Missing owner summary,Edge path,1.0,Medium,1,0,1,1,0,1,331,0.46,9,Reviewer B,trace://sample/REPORT-INT-004
+REPORT-INT-005,Conflicting multi-document summary,High-value management decision,2.5,Medium,1,1,0,0,0,0,286,0.34,7,Reviewer A,trace://sample/REPORT-INT-005
+REPORT-INT-006,Low-noise standard summary,High-frequency core path,2.0,Medium,1,1,0,0,0,0,198,0.21,5,Reviewer A,trace://sample/REPORT-INT-006
+REPORT-INT-007,Messy input format,Edge path,1.0,Medium,1,1,0,0,0,0,254,0.29,6,Reviewer B,trace://sample/REPORT-INT-007
+REPORT-INT-008,Supplier email claim,High-value management decision,2.5,Medium,1,1,0,0,0,0,240,0.26,6,Reviewer A,trace://sample/REPORT-INT-008
+REPORT-INT-009,Meeting notes generation,High-frequency core path,2.0,Medium,1,1,0,0,0,0,188,0.19,5,Reviewer B,trace://sample/REPORT-INT-009
+REPORT-INT-010,Cross-week risk comparison,High-value management decision,2.5,Medium,1,1,0,0,0,0,302,0.39,8,Reviewer A,trace://sample/REPORT-INT-010
+REPORT-INT-011,Missing last-week summary,Edge path,1.0,Medium,1,0,0,1,0,1,216,0.23,5,Reviewer B,trace://sample/REPORT-INT-011
+REPORT-INT-012,Read-only permission check,High-frequency core path,2.0,Medium,1,1,0,0,0,0,174,0.18,4,Reviewer A,trace://sample/REPORT-INT-012

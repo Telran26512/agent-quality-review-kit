@@ -1,0 +1,9 @@
+dimension,score,evidence
+Real task completion,2,Most of the 24 cross-industry samples complete within budget but high-risk and edge paths still need dedicated validation
+Reliability and stability,2,Standard paths and read-only tasks are stable while dependency-failure and high-risk approval tasks still create rework
+Real problem value,3,Covers real high-frequency and high-value workflows with clear time savings over manual organization
+Error handling and boundary,2,Most high-risk actions require human confirmation but hard blocks still need red-team validation
+Cost and latency,3,Average duration cost and tool calls stay under sample budgets
+Engineering robustness,2,Sample includes traces slices and external dependency fields but not production monitoring
+User trust,2,Suitable for internal demo and pilot preparation but not enough to prove post-launch trust
+Security and permissions,2,Least privilege and external send limits are explicit; high-risk production still needs security review and red team
